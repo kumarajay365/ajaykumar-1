@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+ }
+ .start{
+     margin-left: 30px;
+ }
+ nav{
+     display: flex;    
+     justify-content:space-between;
+     align-items: center;
+     background-color: #FCAF02;
+     border: 1px solid green;
+     position:sticky;
+     top:0;
+     z-index: 1000;
+ }
+ .navlink{
+    display: flex;
+ }
+ .navlink>li{
+     list-style-type: none;
+     font-size: 28px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: black;
+     padding-inline: 20px;
+ }
+ #startup{
+     color: white;
+     margin-left: 30px;
+ }
+ #jeff{
+     display: flex;
+     color: white;
+     margin-left: 30px;
+ }
+ img{
+     transform: matrix(-1,0,0,1,0,0);
+     margin-top: auto;
+ }
+ .login{
+     background-color: #FCAF02;
+     color: black;
+     width: 100px;
+     height: 30px;
+     border-radius: 10px;
+     border: 0cap;
+     margin-left: 30px;
+ }
+ .contact{
+     margin-left: 30px;
+     color: #FCAF02;
+ }
+ .form{
+     padding: 10px;
+     justify-content: space-between;
+ }
+ input::placeholder {
+     color: #FCAF02;
+ }
+ #name{
+     width: 95%;
+     margin-left: 30px;
+     margin-bottom: 20px;
+     padding: 10px;
+     outline: none;
+     border-color: #FCAF02;
+     border-radius: 15px;
+     color: #FCAF02;
+ }
+ input{
+     background-color: black;
+ }
+ #mail{
+     width: 95%;
+     margin-left: 30px;
+     margin-bottom: 20px;
+     padding: 10px;
+     outline: none;
+     border-color: #FCAF02;
+     border-radius: 15px;
+     color: #FCAF02;
+ }
+ #num,#place{
+     width: 44%;
+     margin-left: 30px;
+     justify-content: space-between;
+     padding: 10px;
+     outline: none;
+     border-color: #FCAF02;
+     border-radius: 15px;
+     color: #FCAF02;
+ }
+ #place{
+     margin-left: 54px;
+     margin-bottom: 20px;
+     padding: 10px;
+ }
+ .submit{
+     background-color: #FCAF02;
+     color: black;
+     width: 100px;
+     height: 30px;
+     border-radius: 10px;
+     border: 0cap;
+     margin-left: 47%;
+ }
+ #t1
+ {
+     width: 95%;
+     border-collapse: collapse;
+     border-top: 1px solid #FCAF02;
+     border-bottom: 1px solid #FCAF02;
+     border-left: 1px solid #FCAF02;
+     border-right: 1px solid #FCAF02;
+     text-align: center;
+     color: #FCAF02;    
+ 
+ }
+ 
+ .b
+ {
+     border-right:1px solid #FCAF02;
+    height: 50px;
+ }
+ 
+ #tabul{
+     display: flex;
+     justify-content: space-around;
+ }
